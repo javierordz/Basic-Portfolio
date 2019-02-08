@@ -1,0 +1,37 @@
+* {
+    
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+
+    background: #ffffff;
+    border-color: #dddddd;
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#image-bio {
+    width: 200px;
+    float: left;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+}
