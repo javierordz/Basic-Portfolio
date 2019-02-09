@@ -5,35 +5,50 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 </head>
 
 <body>
     <header>
 
-        <div class="logo"><h1>Javier Ordonez</h1></div>
-        <div class="page">About</div>
-        <div class="page">Portfolio</div>
-        <div class="page">Contact</div>
-
+        <div class="container">
+            <div class="left">Javier Ordonez</div>
+            <div class="right"><a href="contact.html">Contact</a></div>
+            <div class="right"><a href="portfolio.html">Portfolio</a></div>
+            <div class="right"><a href="index.html">About</a></div>
+        </div>
+    
     </header>
 
-    <div>
+    <div class="container">
 
-        <h2>Portfolio</h2>
+        <section id="main">
 
-        <img src="http://lorempixel.com/output/people-q-c-640-480-7.jpg" alt="Javier Ordonez" id="image-bio">
-        <p>Hangman</p>
+            <h1>Portfolio</h1>
+            <hr>
 
-        <img src="http://lorempixel.com/output/people-q-c-640-480-7.jpg" alt="Javier Ordonez" id="image-bio">
-        <p>RPG Game</p>
+            <div class="port-proj">
+                <p class="port-title">Hangman</p>
+            </div>
 
-        <img src="http://lorempixel.com/output/people-q-c-640-480-7.jpg" alt="Javier Ordonez" id="image-bio">
-        <p>Rock Paper Scissors</p>
+            <div class="port-proj">
+                <p class="port-title">RPG Game</p>
+            </div>
+
+            <div class="port-proj">
+                <p class="port-title">Rock Paper Scissors</p>      
+            </div>
+
+            <div class="port-proj">
+                <p class="port-title">Trivia Game</p>      
+            </div>
+
+        </section>
 
     </div>
 
     <footer>
-        Copyright &copy;
+        Copyright &copy; 2019 Javier Ordonez
     </footer>
 
 </body>
